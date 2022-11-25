@@ -5,57 +5,57 @@
             'name' => "Adidas Shirt",
             'description' => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptate ea consequatur! Doloribus maiores, fugit, laborum unde magnam necessitatibus a minima animi",
             'price' => "780",
-            'photo1' => "Pic1A.jpg",
-            'photo2' => "Pic1B.jpg",
+            'picture1' => "Pic1A.jpg",
+            'picture2' => "Pic1B.jpg",
         ),
         array(
             'name' => "Gucci Shirt",
             'description' => "Dolore temporibus deleniti ipsam nostrum enim dolorem accusantium commodi ullam consequuntur iure. Nesciunt esse ad inventore eos earum rerum assumenda et beatae animi, temporibus itaque repudiandae voluptas eum corrupti aut atque facere",
             'price' => "2,000",
-            'photo1' => "Pic2A.jpg",
-            'photo2' => "Pic2B.jpg",
+            'picture1' => "Pic2A.jpg",
+            'picture2' => "Pic2B.jpg",
         ),
         array(
             'name' => "Polo Shirt",
             'description' => "Maiores consequatur aliquid at, iste labore delectus alias ipsa. Alias, sed veritatis fuga asperiores quasi, ipsum corrupti dolores quis animi inventore tenetur illum! Animi veniam rerum et quisquam vero aliquam, sapiente repudiandae fugiat cumque! Ducimus",
             'price' => "2,500",
-            'photo1' => "Pic3A.jpg",
-            'photo2' => "Pic3B.jpg",
+            'picture1' => "Pic3A.jpg",
+            'picture2' => "Pic3B.jpg",
         ),
         array(
             'name' => "Adidas Short",
             'description' => "Neque. Maiores odio soluta perspiciatis aut unde eligendi dolor illum eveniet. Alias, sed veritatis fuga asperiores quasi, ipsum corrupti dolores quis animi inventore tenetur illum! Animi veniam rerum et quisquam vero aliquam, sapiente repudiandae fugiat cumque! Ducimus",
             'price' => "500",
-            'photo1' => "Pic4A.jpg",
-            'photo2' => "Pic4B.jpg",
+            'picture1' => "Pic4A.jpg",
+            'picture2' => "Pic4B.jpg",
         ),
         array(
             'name' => "Sling Bag",
             'description' => "Sequi blanditiis reprehenderit repudiandae vel explicabo voluptas voluptatibus veritatis? Corrupti saepe rem autem omnis labore nobis nam sunt quos asperiores neque reprehenderit accusantium",
             'price' => "2,500",
-            'photo1' => "Pic5A.jpg",
-            'photo2' => "Pic5B.jpg",
+            'picture1' => "Pic5A.jpg",
+            'picture2' => "Pic5B.jpg",
         ),
         array(
             'name' => "Jogger",
             'description' => "Sequi blanditiis reprehenderit repudiandae vel explicabo voluptas voluptatibus veritatis? Corrupti saepe rem autem omnis labore nobis nam sunt quos asperiores neque reprehenderit accusantium",
             'price' => "1,000",
-            'photo1' => "Pic6A.jpg",
-            'photo2' => "Pic6B.jpg",
+            'picture1' => "Pic6A.jpg",
+            'picture2' => "Pic6B.jpg",
         ),
         array(
             'name' => "Nike Shirt",
             'description' => "Sequi blanditiis reprehenderit repudiandae vel explicabo voluptas voluptatibus veritatis? Corrupti saepe rem autem omnis labore nobis nam sunt quos asperiores neque reprehenderit accusantium",
             'price' => "800",
-            'photo1' => "Pic7A.jpg",
-            'photo2' => "Pic7B.jpg",
+            'picture1' => "Pic7A.jpg",
+            'picture2' => "Pic7B.jpg",
         ), 
         array(
             'name' => "Lebron Jersey",
             'description' => "Sequi blanditiis reprehenderit repudiandae vel explicabo voluptas voluptatibus veritatis? Corrupti saepe rem autem omnis labore nobis nam sunt quos asperiores neque reprehenderit accusantium",
             'price' => "5,000",
-            'photo1' => "Pic8A.jpg",
-            'photo2' => "Pic8B.jpg",
+            'picture1' => "Pic8A.jpg",
+            'picture2' => "Pic8B.jpg",
         )
     );
     if(isset($_POST['btnProcess'])){
@@ -104,8 +104,8 @@
                     <div class="product-grid card mb-4">
                         <div class="product-image">
                             <a href="details.php?k=<?php echo $key; ?>"></a>
-                                <img class="pic-1" src="img/<?php echo $arrProducts[$_GET['k']]['photo1'];?>">
-                                <img class="pic-2" src="img/<?php echo $arrProducts[$_GET['k']]['photo2'];?>">
+                                <img class="pic-1" src="img/<?php echo $arrProducts[$_GET['k']]['picture1'];?>">
+                                <img class="pic-2" src="img/<?php echo $arrProducts[$_GET['k']]['picture2'];?>">
                             </a>
                         </div>
                     </div>
