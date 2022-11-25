@@ -81,7 +81,7 @@
 	<div class="container pt-3">
     	<div class="row">
                 <div class="col-md-10">
-                    <h1><i class="fa fa-store"></i> Mens Wear Shop</h1>
+                    <h1><i class="fa fa-store"></i> TMN Shopping Cart</h1>
                 </div>
                 <div class="col-md-2">
                     <a href="cart.php" class="btn btn-primary">
